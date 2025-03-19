@@ -3,6 +3,6 @@ numpy
 pandas
 dash
 plotly
-sklearn
+scikit-learn
 time
 re
