@@ -5,10 +5,6 @@ import numpy as np
 
 from sklearn.metrics.pairwise import cosine_similarity
 
-import time
-
-import re
-
 import plotly.graph_objects as go
 import plotly.express as px
 import networkx as nx
