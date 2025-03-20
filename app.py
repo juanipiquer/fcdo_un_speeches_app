@@ -20,7 +20,8 @@ from dash import dcc, html, Input, Output
 
 sentence_df = pd.read_csv("sentence_df.csv")
 
-print(sentence_df["Year"].unique())
+sentence_df = sentence_df[sentence_df["Year"] >= 1994]
+
 
 ###
 # grafico networks 
