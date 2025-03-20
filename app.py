@@ -134,7 +134,8 @@ group_selector = dcc.Dropdown(
 app.layout = html.Div([
     html.H1("Countries & Technology Mentions Network", style={"text-align": "center", 'font-family': 'Helvetica'}),
     group_selector,
-    dcc.Graph(id="network-graph", config={'scrollZoom': True}),
+    dcc.Graph(id="network-graph", 
+    config={'scrollZoom': True}, style={'flex': '1', 'height': '550px'}),
     html.Br(),
     dcc.Graph(id="highlighted-graph", config={'scrollZoom': True})
 ])
